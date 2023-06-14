@@ -1,0 +1,42 @@
+
+body{
+    background-color:#000000;
+    padding:40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.accordian{
+    background-color:#2d2d2d;
+    margin-bottom:10px;
+    padding:2px 8px;
+    border-radius:4px;
+    box-shadow:1px 1px 2px #000000;
+    cursor: pointer;
+}
+h2,h4{
+    color:#ffffff;
+}
+h2{
+    text-align: center;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    margin-right:16px;
+    transition: transform 0.2s;
+}
+
+.icon.active{
+    transform: rotate(45deg);
+}
+
+.answer{
+   color:#ffffff;
+   max-height:0;
+   overflow:hidden;
+   transition:max-height 0.3s;
+}
