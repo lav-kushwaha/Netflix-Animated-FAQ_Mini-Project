@@ -28,6 +28,7 @@ h2{
 .icon{
     margin-right:16px;
     transition: transform 0.2s;
+    color:#ffffff;
 }
 
 .icon.active{
